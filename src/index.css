@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Barlow Condensed', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --color-brand-navy: #0B2545;
+  --color-brand-navy-dark: #07172C;
+  --color-brand-navy-light: #16365F;
+  --color-brand-orange: #F26419;
+  --color-brand-orange-hover: #DB540D;
+}
+
+.font-heading {
+  font-family: 'Barlow Condensed', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.font-sans {
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+/* Custom scrollbar for modern feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b2545;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f26419;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #db540d;
+}
